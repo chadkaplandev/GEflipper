@@ -1,4 +1,4 @@
-package com.example;
+package com.chadflip;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
@@ -10,7 +10,7 @@ public interface ChadflipConfig extends Config
 	@ConfigItem(
 		keyName = "greeting",
 		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		description = "Welcome to Chad's sick flipper"
 	)
 	default String greeting()
 	{
